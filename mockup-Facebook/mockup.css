@@ -1,0 +1,61 @@
+.columna{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    
+}
+
+.foot{
+    background-color: #30e607;
+    border:2px solid;
+    padding: 4%;
+    margin-top: 5%;
+
+}
+
+.contenido1 {
+    border: solid 1px #bf1414;
+    margin: 12% 0% 20% 12% ;
+    white-space: 100%;
+    
+}
+
+.contenido2{
+    border: solid 1px #bf1414;
+    margin: 8% 36% 20% 4%;
+    padding-top: 1%;  
+
+}
+
+.lista-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img{
+width: 50%;
+transform: translateX(-32px);
+}
+
+.texto{
+    font-size: 2rem;
+    margin: 0;
+    width: 80%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cajaTexto{
+    border: 1px solid #161715;
+    border-radius: 5px;
+    line-height: 32px;
+    text-align: center;
+    width: 100%;
+    
+
+}
+
+
+.formulario{
+    border:  solid 1px #5cc841;
+    margin: 10px;
+
+}
