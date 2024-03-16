@@ -1,3 +1,12 @@
+*{
+
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #f0f2f5;
+}
+
 .columna{
     display: grid;
     grid-template-columns: repeat(2, 50%);
@@ -5,8 +14,7 @@
 }
 
 .foot{
-    background-color: #30e607;
-    border:2px solid;
+    background-color: #FFFFFF;
     padding: 4%;
     margin-top: 5%;
 
@@ -14,14 +22,14 @@
 
 .contenido1 {
     border: solid 1px #bf1414;
-    margin: 12% 0% 20% 12% ;
+    margin: 24% 0% 20% 12% ;
     white-space: 100%;
     
 }
 
 .contenido2{
     border: solid 1px #bf1414;
-    margin: 8% 36% 20% 4%;
+    margin: 19% 36% 20% 4%;
     padding-top: 1%;  
 
 }
@@ -33,29 +41,114 @@
 
 .img{
 width: 50%;
-transform: translateX(-32px);
+transform: translateX(149px);
 }
 
 .texto{
-    font-size: 2rem;
+    font-size: 28px;
     margin: 0;
     width: 80%;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -17px;
+    padding-left: 27%;
 }
-
-.cajaTexto{
-    border: 1px solid #161715;
-    border-radius: 5px;
-    line-height: 32px;
-    text-align: center;
-    width: 100%;
-    
-
-}
-
 
 .formulario{
     border:  solid 1px #5cc841;
     margin: 10px;
 
+
+}
+
+.cajaTexto1 {
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    line-height: 52px;
+    text-align: left;
+    width: 79%;
+    margin-left:  47px; ;
+    font-size: 14px;
+
+}
+
+.cajaTexto2{
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    line-height: 52px;
+    text-align: left;
+    width: 79%;
+    margin-top: 13px;
+    margin-left:  47px; 
+    font-size: 14px;    
+    
+}
+
+
+.boton-1{
+    margin-top: 13px;
+    width: 81%;
+    border-radius: 6px;
+    border: solid 1px;  
+    padding: 5% 13% 5% 15%;
+    margin-left: 47px;
+    line-height: 7px;
+    background-color:  #0866FF;
+    font-weight: bold;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.boton-1:hover{
+    cursor: pointer;
+}
+
+.link{
+    margin-top: 13px;
+    text-align: center;
+    color:#0866FF;
+    
+}
+
+a{
+    text-decoration: none;
+    color:#0866FF  ;
+    font-size: 14px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.linea{
+    border-bottom: solid 0.5px #d6d3d3;
+    width: 82%;
+    margin: 28px 0 28px 43px;
+}
+
+.boton-2{
+    margin-bottom: 23px;
+    width: 45%;
+    border-radius: 6px;
+    border: solid 1px;
+    margin-left: 125px;
+    line-height: 47px;
+    text-align: center;
+    background-color: #42B72A;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: bold;
+    padding-left: 11px;   
+}
+.boton-2:hover{
+    cursor: pointer;
+}
+
+
+.ul-parrafo{
+    margin-top: 28px;
+    font-size: 14px; 
+    padding-left: 65px; 
+}
+
+.palabra{
+    padding-left: 141px;
 }
