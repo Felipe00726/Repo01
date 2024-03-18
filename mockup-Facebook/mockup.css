@@ -13,31 +13,18 @@ body{
     
 }
 
-.foot{
-    background-color: #FFFFFF;
-    padding: 4%;
-    margin-top: 5%;
-
-}
 
 .contenido1 {
-    border: solid 1px #bf1414;
-    margin: 24% 0% 20% 12% ;
+    margin: 23% 1% 20% 12%;
     white-space: 100%;
     
 }
 
 .contenido2{
-    border: solid 1px #bf1414;
-    margin: 19% 36% 20% 4%;
+    margin: 15% 31% 20% 6%;
     padding-top: 1%;  
-
 }
 
-.lista-1{
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .img{
 width: 50%;
@@ -53,9 +40,11 @@ transform: translateX(149px);
 }
 
 .formulario{
-    border:  solid 1px #5cc841;
-    margin: 10px;
-
+    margin: 13px;
+    padding-top: 15px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: -4px 17px 28px 7px rgba(0,0,0,0.1);
 
 }
 
@@ -66,7 +55,8 @@ transform: translateX(149px);
     text-align: left;
     width: 79%;
     margin-left:  47px; ;
-    font-size: 14px;
+    font-size: 16px;
+    
 
 }
 
@@ -77,8 +67,8 @@ transform: translateX(149px);
     text-align: left;
     width: 79%;
     margin-top: 13px;
-    margin-left:  47px; 
-    font-size: 14px;    
+    margin-left:47px; 
+    font-size: 16px;    
     
 }
 
@@ -90,7 +80,7 @@ transform: translateX(149px);
     border: solid 1px;  
     padding: 5% 13% 5% 15%;
     margin-left: 47px;
-    line-height: 7px;
+    line-height: 4px;
     background-color:  #0866FF;
     font-weight: bold;
     color: #ffff;
@@ -108,7 +98,7 @@ transform: translateX(149px);
     
 }
 
-a{
+.link a{
     text-decoration: none;
     color:#0866FF  ;
     font-size: 14px;
@@ -149,6 +139,48 @@ a:hover{
     padding-left: 65px; 
 }
 
+.ul-parrafo a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 .palabra{
     padding-left: 141px;
 }
+
+
+.foot{
+    background-color: #FFFFFF;
+    padding: 4%;
+    margin-top: 5%;
+}
+
+.lista-1{
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+    
+    list-style: none;
+}
+
+.idioma{
+    text-decoration: none;
+    color: #8a8d91;
+}
+
+.idioma:hover{
+    text-decoration: underline;
+}
+
+
+.linea2{
+    border-bottom: solid 0.5px #d6d3d3;
+    width: 82%;
+    margin: 28px 0 28px 43px;
+}
+
